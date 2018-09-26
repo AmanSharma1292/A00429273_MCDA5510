@@ -1,0 +1,6 @@
+Sep 26, 2018 2:15:24 PM csvCompiler.SimpleLogging writetoLogFile
+INFO: Total Execution Time: 2626 ms
+Sep 26, 2018 2:15:24 PM csvCompiler.SimpleLogging writetoLogFile
+INFO: Number of Valid Rows: 214166
+Sep 26, 2018 2:15:24 PM csvCompiler.SimpleLogging writetoLogFile
+INFO: Number of Skipped Rows: 81834

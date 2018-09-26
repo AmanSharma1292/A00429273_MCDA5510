@@ -24,7 +24,7 @@ public class FileReadWrite {
 			writer = Files.newBufferedWriter(Paths.get("./Output/FinalData.csv", new String[0]), new OpenOption[0]);
 			csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT.withHeader(FIELDS));
 			long startTime = System.currentTimeMillis();
-			dw.walkDir("D:\\Java\\MCDA5510_Assignments\\Sample Data", writer, csvPrinter);
+			dw.walkDir("./Sample Data", writer, csvPrinter);
 			long endTime = System.currentTimeMillis();
 			logger.writetoLogFile("Total Execution Time: " + (endTime - startTime) + " ms");
 			logger.writetoLogFile("Number of Valid Rows: " + validRowCounter);

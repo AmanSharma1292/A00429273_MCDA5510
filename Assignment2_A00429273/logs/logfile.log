@@ -1,0 +1,173 @@
+2018-10-12 10:19:50 INFO  DBConnection:358 - Aman
+2018-10-12 10:19:50 INFO  DBConnection:366 - 2018-10-12 10:19:50
+2018-10-12 10:19:50 INFO  DBConnection:372 - Operations you can perform on Database
+2018-10-12 10:19:50 INFO  DBConnection:373 - 1. Create
+2018-10-12 10:19:50 INFO  DBConnection:374 - 2. Update
+2018-10-12 10:19:50 INFO  DBConnection:375 - 3. Retrive
+2018-10-12 10:19:50 INFO  DBConnection:376 - 4. Delete
+2018-10-12 10:19:50 INFO  DBConnection:392 - 
+2018-10-12 10:20:01 INFO  DBConnection:520 - Please Enter ID: 
+2018-10-12 10:20:06 INFO  DBConnection:522 - Please Enter Name: 
+2018-10-12 10:20:11 INFO  DBConnection:524 - Please Select Your Card Type: 
+2018-10-12 10:20:11 INFO  DBConnection:525 - 1. Mastercard
+2018-10-12 10:20:11 INFO  DBConnection:526 - 2. Visa
+2018-10-12 10:20:11 INFO  DBConnection:527 - 3. American Express
+2018-10-12 10:20:18 INFO  DBConnection:531 - Please Enter Card Number: 
+2018-10-12 10:20:28 INFO  DBConnection:581 - Please enter Unit Price: 
+2018-10-12 10:20:32 INFO  DBConnection:583 - Please Enter Quantity: 
+2018-10-12 10:20:35 INFO  DBConnection:589 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-12 10:20:48 INFO  DBConnection:600 - 2028
+2018-10-12 10:20:48 INFO  DBConnection:620 - 
+2018-10-12 10:20:48 INFO  DBConnection:621 - 
+2018-10-12 10:20:48 INFO  DBConnection:622 - 
+2018-10-12 10:20:48 INFO  DBConnection:623 - ----------- Update Transaction Method--------------------
+2018-10-12 10:20:48 INFO  DBConnection:208 - Update Success
+2018-10-12 10:20:48 INFO  DBConnection:627 - true
+2018-10-12 10:20:48 INFO  DBConnection:629 - Operation Completed!!!! if you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 13:37:02 INFO  DBConnection:368 - Aman
+2018-10-15 13:37:02 INFO  DBConnection:376 - 2018-10-15 13:37:02
+2018-10-15 13:37:02 INFO  DBConnection:382 - Operations you can perform on Database
+2018-10-15 13:37:02 INFO  DBConnection:383 - 1. Create
+2018-10-15 13:37:02 INFO  DBConnection:384 - 2. Update
+2018-10-15 13:37:02 INFO  DBConnection:385 - 3. Retrive
+2018-10-15 13:37:02 INFO  DBConnection:386 - 4. Delete
+2018-10-15 13:37:02 INFO  DBConnection:402 - 
+2018-10-15 13:37:08 INFO  DBConnection:410 - Please enter ID: 
+2018-10-15 13:37:11 INFO  DBConnection:412 - Please Enter Name: 
+2018-10-15 13:37:14 INFO  DBConnection:414 - Please Select Your Card Type: 
+2018-10-15 13:37:14 INFO  DBConnection:415 - 1. Mastercard
+2018-10-15 13:37:14 INFO  DBConnection:416 - 2. Visa
+2018-10-15 13:37:14 INFO  DBConnection:417 - 3. American Express
+2018-10-15 13:37:20 INFO  DBConnection:421 - Please Enter Card Number: 
+2018-10-15 13:37:28 INFO  DBConnection:465 - Please Enter Correct Card Number of mastercard Type!!!
+2018-10-15 13:37:28 INFO  DBConnection:421 - Please Enter Card Number: 
+2018-10-15 13:38:21 INFO  DBConnection:471 - Please Enter Unit Price: 
+2018-10-15 13:38:24 INFO  DBConnection:473 - Please Enter Quantity: 
+2018-10-15 13:38:26 INFO  DBConnection:479 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 13:38:34 INFO  DBConnection:490 - 2018
+2018-10-15 13:38:34 INFO  DBConnection:479 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 13:38:42 INFO  DBConnection:490 - 2018
+2018-10-15 13:38:42 INFO  DBConnection:511 - 
+2018-10-15 13:38:42 INFO  DBConnection:513 - -----------Create transaction  Method--------------------
+2018-10-15 13:38:43 INFO  DBConnection:120 - Uable to save object
+2018-10-15 13:38:43 INFO  DBConnection:140 - Connection Issue/Format Issue
+2018-10-15 13:38:43 INFO  DBConnection:518 - false
+2018-10-15 13:38:43 INFO  DBConnection:520 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 13:40:16 INFO  DBConnection:368 - Aman
+2018-10-15 13:40:16 INFO  DBConnection:376 - 2018-10-15 13:40:16
+2018-10-15 13:40:16 INFO  DBConnection:382 - Operations you can perform on Database
+2018-10-15 13:40:16 INFO  DBConnection:383 - 1. Create
+2018-10-15 13:40:16 INFO  DBConnection:384 - 2. Update
+2018-10-15 13:40:16 INFO  DBConnection:385 - 3. Retrive
+2018-10-15 13:40:16 INFO  DBConnection:386 - 4. Delete
+2018-10-15 13:40:16 INFO  DBConnection:402 - 
+2018-10-15 13:40:36 INFO  DBConnection:368 - Aman
+2018-10-15 13:40:36 INFO  DBConnection:376 - 2018-10-15 13:40:36
+2018-10-15 13:40:36 INFO  DBConnection:382 - Operations you can perform on Database
+2018-10-15 13:40:36 INFO  DBConnection:383 - 1. Create
+2018-10-15 13:40:36 INFO  DBConnection:384 - 2. Update
+2018-10-15 13:40:36 INFO  DBConnection:385 - 3. Retrive
+2018-10-15 13:40:36 INFO  DBConnection:386 - 4. Delete
+2018-10-15 13:40:36 INFO  DBConnection:402 - 
+2018-10-15 13:41:19 INFO  DBConnection:410 - Please enter ID: 
+2018-10-15 13:41:22 INFO  DBConnection:412 - Please Enter Name: 
+2018-10-15 13:41:24 INFO  DBConnection:414 - Please Select Your Card Type: 
+2018-10-15 13:41:24 INFO  DBConnection:415 - 1. Mastercard
+2018-10-15 13:41:24 INFO  DBConnection:416 - 2. Visa
+2018-10-15 13:41:24 INFO  DBConnection:417 - 3. American Express
+2018-10-15 13:41:28 INFO  DBConnection:421 - Please Enter Card Number: 
+2018-10-15 13:41:36 INFO  DBConnection:471 - Please Enter Unit Price: 
+2018-10-15 13:41:40 INFO  DBConnection:473 - Please Enter Quantity: 
+2018-10-15 13:41:42 INFO  DBConnection:479 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 13:41:48 INFO  DBConnection:490 - 2018
+2018-10-15 13:41:48 INFO  DBConnection:511 - 
+2018-10-15 13:41:48 INFO  DBConnection:513 - -----------Create transaction  Method--------------------
+2018-10-15 13:41:48 INFO  DBConnection:120 - Uable to save object
+2018-10-15 13:41:48 INFO  DBConnection:140 - Connection Issue/Format Issue
+2018-10-15 13:41:48 INFO  DBConnection:518 - false
+2018-10-15 13:41:48 INFO  DBConnection:520 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 17:40:46 INFO  DBConnection:369 - Aman
+2018-10-15 17:40:46 INFO  DBConnection:377 - 2018-10-15 17:40:46
+2018-10-15 17:40:46 INFO  DBConnection:383 - Operations you can perform on Database
+2018-10-15 17:40:46 INFO  DBConnection:384 - 1. Create
+2018-10-15 17:40:46 INFO  DBConnection:385 - 2. Update
+2018-10-15 17:40:46 INFO  DBConnection:386 - 3. Retrive
+2018-10-15 17:40:46 INFO  DBConnection:387 - 4. Delete
+2018-10-15 17:40:46 INFO  DBConnection:403 - 
+2018-10-15 17:41:09 INFO  DBConnection:411 - Please enter ID: 
+2018-10-15 17:41:10 INFO  DBConnection:413 - Please Enter Name: 
+2018-10-15 17:41:13 INFO  DBConnection:415 - Please Select Your Card Type: 
+2018-10-15 17:41:13 INFO  DBConnection:416 - 1. Mastercard
+2018-10-15 17:41:13 INFO  DBConnection:417 - 2. Visa
+2018-10-15 17:41:13 INFO  DBConnection:418 - 3. American Express
+2018-10-15 17:41:18 INFO  DBConnection:422 - Please Enter Card Number: 
+2018-10-15 17:41:28 INFO  DBConnection:472 - Please Enter Unit Price: 
+2018-10-15 17:41:31 INFO  DBConnection:474 - Please Enter Quantity: 
+2018-10-15 17:41:33 INFO  DBConnection:480 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 17:41:41 INFO  DBConnection:491 - 2018
+2018-10-15 17:41:41 INFO  DBConnection:512 - 
+2018-10-15 17:41:41 INFO  DBConnection:514 - -----------Create transaction  Method--------------------
+2018-10-15 17:41:48 INFO  DBConnection:121 - Uable to save object
+2018-10-15 17:41:48 INFO  DBConnection:141 - Connection Issue/Format Issue
+2018-10-15 17:41:48 INFO  DBConnection:519 - false
+2018-10-15 17:41:48 INFO  DBConnection:521 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 17:42:37 INFO  DBConnection:411 - Please enter ID: 
+2018-10-15 17:42:40 INFO  DBConnection:413 - Please Enter Name: 
+2018-10-15 17:42:42 INFO  DBConnection:415 - Please Select Your Card Type: 
+2018-10-15 17:42:42 INFO  DBConnection:416 - 1. Mastercard
+2018-10-15 17:42:42 INFO  DBConnection:417 - 2. Visa
+2018-10-15 17:42:42 INFO  DBConnection:418 - 3. American Express
+2018-10-15 17:42:47 INFO  DBConnection:422 - Please Enter Card Number: 
+2018-10-15 17:42:55 INFO  DBConnection:472 - Please Enter Unit Price: 
+2018-10-15 17:42:57 INFO  DBConnection:474 - Please Enter Quantity: 
+2018-10-15 17:42:59 INFO  DBConnection:480 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 17:43:11 INFO  DBConnection:491 - 2019
+2018-10-15 17:43:11 INFO  DBConnection:512 - 
+2018-10-15 17:43:11 INFO  DBConnection:514 - -----------Create transaction  Method--------------------
+2018-10-15 17:43:23 INFO  DBConnection:121 - Uable to save object
+2018-10-15 17:43:23 INFO  DBConnection:141 - Connection Issue/Format Issue
+2018-10-15 17:43:23 INFO  DBConnection:519 - false
+2018-10-15 17:43:23 INFO  DBConnection:521 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 17:48:37 INFO  DBConnection:369 - Aman
+2018-10-15 17:48:37 INFO  DBConnection:377 - 2018-10-15 17:48:37
+2018-10-15 17:48:37 INFO  DBConnection:383 - Operations you can perform on Database
+2018-10-15 17:48:37 INFO  DBConnection:384 - 1. Create
+2018-10-15 17:48:37 INFO  DBConnection:385 - 2. Update
+2018-10-15 17:48:37 INFO  DBConnection:386 - 3. Retrive
+2018-10-15 17:48:37 INFO  DBConnection:387 - 4. Delete
+2018-10-15 17:48:37 INFO  DBConnection:403 - 
+2018-10-15 17:48:43 INFO  DBConnection:648 - 
+2018-10-15 17:48:43 INFO  DBConnection:649 - 
+2018-10-15 17:48:43 INFO  DBConnection:650 - 
+2018-10-15 17:48:43 INFO  DBConnection:651 - -----------Get Transaction Method--------------------
+2018-10-15 17:48:43 INFO  DBConnection:652 - Please Enter ID
+2018-10-15 17:48:48 INFO  DBConnection:281 - Success
+2018-10-15 17:48:48 INFO  DBConnection:655 - ID=1
+nameoncard=Shawn
+CardType=5212345345674567
+CardNumber=mastercard
+UnitPrice=4.0
+Quantity=7
+TotalPrice=28.0
+ExpDate=02/2028
+CreatedOn=2018-10-12 10:19:50
+CreatedBy=Aman
+2018-10-15 17:48:48 INFO  DBConnection:657 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 17:50:10 INFO  DBConnection:411 - Please enter ID: 
+2018-10-15 17:50:13 INFO  DBConnection:413 - Please Enter Name: 
+2018-10-15 17:50:18 INFO  DBConnection:415 - Please Select Your Card Type: 
+2018-10-15 17:50:18 INFO  DBConnection:416 - 1. Mastercard
+2018-10-15 17:50:18 INFO  DBConnection:417 - 2. Visa
+2018-10-15 17:50:18 INFO  DBConnection:418 - 3. American Express
+2018-10-15 17:50:21 INFO  DBConnection:422 - Please Enter Card Number: 
+2018-10-15 17:50:41 INFO  DBConnection:472 - Please Enter Unit Price: 
+2018-10-15 17:50:43 INFO  DBConnection:474 - Please Enter Quantity: 
+2018-10-15 17:50:44 INFO  DBConnection:480 - Please enter valid expiry date in the format MM/YYYY with year ranges from 2016 to 2031
+2018-10-15 17:50:52 INFO  DBConnection:491 - 2022
+2018-10-15 17:50:52 INFO  DBConnection:512 - 
+2018-10-15 17:50:52 INFO  DBConnection:514 - -----------Create transaction  Method--------------------
+2018-10-15 17:50:52 INFO  DBConnection:135 - Record Created Success
+2018-10-15 17:50:52 INFO  DBConnection:519 - true
+2018-10-15 17:50:52 INFO  DBConnection:521 - Operation Completed!!!! If you want to exit press '1' else if you want to perform other operation press '0': 
+2018-10-15 17:51:01 INFO  DBConnection:531 - Please Enter ID: 
+2018-10-15 17:51:03 INFO  DBConnection:533 - Please Enter Name: 

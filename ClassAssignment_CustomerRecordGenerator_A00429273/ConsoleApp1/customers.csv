@@ -1,0 +1,22 @@
+
+First Name,Last Name,Street Number,Street,City,Province,Country,Postal Code
+DAVID,LastNameC,2,a,Toronto,NS,Canada,11008
+ROBERT,LastNameC,2,g,Toronto,ON,Canada,11004
+WILLIAM,LastNameF,0,i,Halifax,ON,Canada,11007
+DAVID,LastNameC,0,i,Halifax,NS,Canada,11006
+JOSEPH,LastNameE,3,d,Toronto,NS,Canada,11009
+MICHAEL,LastNameE,2,street,Toronto,QC,Canada,11003
+WILLIAM,LastNameE,6,i,Ottawa,NS,Canada,11004
+MICHAEL,LastNameF,6,street,Montreal,NS,Canada,11004
+RICHARD,LastNameD,3,street,Montreal,ON,Canada,11006
+WILLIAM,LastNameC,2,a,Montreal,NS,Canada,11005
+JOHN,LastNameE,0,a,Halifax,QC,Canada,11008
+DAVID,LastNameF,0,a,Halifax,NS,Canada,11006
+JOHN,LastNameF,1,g,Ottawa,ON,Canada,11005
+CHARLES,LastNameE,4,i,Montreal,ON,Canada,11002
+WILLIAM,LastNameE,1,e,Montreal,QC,Canada,11007
+MICHAEL,LastNameF,0,street,Toronto,ON,Canada,11008
+JOSEPH,LastNameD,3,i,Montreal,ON,Canada,11007
+MICHAEL,LastNameF,6,street,Montreal,ON,Canada,11003
+JOSEPH,LastNameE,3,g,Ottawa,QC,Canada,11005
+DAVID,LastNameE,2,f,Montreal,NS,Canada,11003

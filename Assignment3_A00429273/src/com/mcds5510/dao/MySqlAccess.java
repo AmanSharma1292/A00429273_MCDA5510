@@ -156,26 +156,26 @@ public class MySqlAccess {
 		}
 		PreparedStatement statement = null;
 		try {
-			String insertSql = "INSERT INTO Transaction(ID, NameOnCard, CardNumber, "
-					+ "CardType, ExpDate, UnitPrice, Quantity, TotalPrice," + " CreatedOn, CreatedBy)"
+			String insertSql = "INSERT INTO Transaction(ID, NameOnCard, cardtype, "
+					+ "CardNumber, UnitPrice, Quantity, TotalPrice, ExpDate," + " CreatedOn, CreatedBy)"
 					+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 			statement = connection.prepareStatement(insertSql);
 			statement.setString(1, trxn.getId());
 			statement.setString(2, trxn.getNameOnCard());
-			statement.setString(3, trxn.getCardNumber());
-			statement.setString(4, trxn.getCardType());
-			statement.setString(5, trxn.getExpDate());
-			statement.setDouble(6, trxn.getUnitPrice());
-			statement.setInt(7, trxn.getQuantity());
-			statement.setDouble(8, trxn.getTotalPrice());
+			statement.setString(3, trxn.getCardType());
+			statement.setString(4, trxn.getCardNumber());
+			statement.setDouble(5, trxn.getUnitPrice());
+			statement.setInt(6, trxn.getQuantity());
+			statement.setDouble(7, trxn.getTotalPrice());
+			statement.setString(8, trxn.getExpDate());
 			statement.setString(9, trxn.getCreatedOn());
 			statement.setString(10, trxn.getCreatedBy());
 
 			int rowsInserted = statement.executeUpdate();
 			if (rowsInserted > 0) {
-				logger.log(Level.INFO, "A new user was successfully inserted!");
+				logger.log(Level.INFO, "User Inserted!");
 
-				System.out.println("A new user was successfully inserted!");
+				System.out.println("User Inserted!");
 			}
 		} catch (SQLException e) {
 			logger.log(Level.SEVERE, "Exception: " + e.getMessage());
@@ -190,26 +190,26 @@ public class MySqlAccess {
 		}
 		PreparedStatement statement = null;
 		try {
-			String updateSql = "UPDATE Transaction SET NameOnCard=?, CardNumber=?,"
-					+ "CardType=?, ExpDate=?, UnitPrice=?, Quantity=?, TotalPrice=?,"
-					+ "CreatedOn=?, CreatedBy=? WHERE ID =?";
+			String updateSql = "UPDATE Transaction SET NameOnCard=?, CardType=?,"
+					+ "CardNumber=?, UnitPrice=?, Quantity=?, TotalPrice=?,"
+					+ "ExpDate=?, CreatedOn=?, CreatedBy=? WHERE ID =?";
 			statement = connection.prepareStatement(updateSql);
 			statement.setString(10, trxn.getId());
 			statement.setString(1, trxn.getNameOnCard());
-			statement.setString(2, trxn.getCardNumber());
-			statement.setString(3, trxn.getCardType());
-			statement.setString(4, trxn.getExpDate());
-			statement.setDouble(5, trxn.getUnitPrice());
-			statement.setInt(6, trxn.getQuantity());
-			statement.setDouble(7, trxn.getTotalPrice());
+			statement.setString(2, trxn.getCardType());
+			statement.setString(3, trxn.getCardNumber());
+			statement.setDouble(4, trxn.getUnitPrice());
+			statement.setInt(5, trxn.getQuantity());
+			statement.setDouble(6, trxn.getTotalPrice());
+			statement.setString(7, trxn.getExpDate());
 			statement.setString(8, trxn.getCreatedOn());
 			statement.setString(9, trxn.getCreatedBy());
 
 			int rowsUpdated = statement.executeUpdate();
 			if (rowsUpdated > 0) {
-				logger.log(Level.INFO, "An existing user was updated successfully!");
+				logger.log(Level.INFO, "Updated successfully!");
 
-				System.out.println("An existing user was updated successfully!");
+				System.out.println("Updated successfully!");
 			}
 		} catch (SQLException e) {
 			logger.log(Level.SEVERE, "Exception: " + e.getMessage());
@@ -225,8 +225,8 @@ public class MySqlAccess {
 
 			int rowsDeleted = statement.executeUpdate();
 			if (rowsDeleted > 0) {
-				System.out.println("User Deleted Successfully!");
-				logger.log(Level.INFO, "User Deleted Successfully!");
+				System.out.println("User Deleted!");
+				logger.log(Level.INFO, "User Deleted!");
 			}
 		} catch (SQLException e) {
 			logger.log(Level.SEVERE, "Exception: " + e.getMessage());
@@ -242,12 +242,12 @@ public class MySqlAccess {
 			Transaction trxn = new Transaction();
 			trxn.setId(resultSet.getString("ID"));
 			trxn.setNameOnCard(resultSet.getString("NameOnCard"));
+			trxn.setCardType(resultSet.getString("cardtype"));
 			trxn.setCardNumber(resultSet.getString("CardNumber"));
-			trxn.setCardType(resultSet.getString("CardType"));
-			trxn.setExpDate(resultSet.getString("ExpDate"));
 			trxn.setUnitPrice(resultSet.getDouble("UnitPrice"));
 			trxn.setQuantity(resultSet.getInt("Quantity"));
 			trxn.setTotalPrice(resultSet.getDouble("TotalPrice"));
+			trxn.setExpDate(resultSet.getString("ExpDate"));
 			trxn.setCreatedOn(resultSet.getString("CreatedOn"));
 			trxn.setCreatedBy(resultSet.getString("CreatedBy"));
 

@@ -125,9 +125,12 @@ public class Transaction {
 	public String toString() {
 
 		String results = new String();
-		results = "[ID: " + id + ", NameOnCard: " + nameOnCard + ", CardNumber: " + cardNumber + ", CardType: "
-				+ cardType + ", ExpDate: " + expDate + ", UnitPrice: " + unitPrice + ", Quantity: " + quantity
-				+ ", TotalPrice: " + totalPrice + ", CreatedOn: " + createdOn + ", CreatedBy: " + createdBy + "]";
+
+		results = "[ID: " + id + "NameOnCard: " + nameOnCard + "CardType: " + cardType + "CardNumber: " + cardNumber
+				+ "UnitPrice: " + unitPrice + "Quantity: " + quantity + "TotalPrice: " + totalPrice + "ExpDate: "
+				+ expDate + "CreatedOn: " + createdOn + "CreatedBy: " + createdBy + "]";
+
 		return results;
+
 	}
 }

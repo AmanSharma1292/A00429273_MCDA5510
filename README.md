@@ -17,3 +17,5 @@ Technology Familiarity: Core Java, HTML, .NET & SQL.
 Expectation from Course: I'm really looking forward to enhance my skills in development & gain better understanding of how to optemize my code. Other than that I would really appreciate if we can discuss more about current technologies that are used in industries and some workshop on them as well.
 
 Also, if possible if you can provide hard copies of notes then that would be really great.
+
+Assignment 3: http://dev.cs.smu.ca:8391/Assignment3Server_A00429273Client/sampleTrxnWebServiceProxy/TestClient.jsp?endpoint=http://dev.cs.smu.ca:8391/Assignment3Server_A00429273/services/TrxnWebService
